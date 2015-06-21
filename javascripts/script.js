@@ -1,7 +1,7 @@
 $(function(){
     var now = new Date();
     // comment out the line below and change the date of your countdown here
-    var in30Days = new Date( now.getTime() + (30 * 24 * 60 * 60 * 1000) );
+    var in30Days = new Date( now.getTime() + (7 * 24 * 60 * 60 * 1000) );
     // year to countdown to
     var countdownYear = in30Days.getFullYear();
     // month to countdown to 0 = Jan, 1 = Feb, etc
